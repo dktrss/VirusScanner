@@ -6,7 +6,7 @@ import requests
 import os
 import hashlib
 
-API_KEY = "_________insert api____"
+API_KEY = "____insert api____"
 VT_LARGE_UPLOAD_URL = "https://www.virustotal.com/api/v3/files/upload_url"
 VT_REPORT_URL = "https://www.virustotal.com/api/v3/analyses/{}"
 VT_FILE_REPORT_URL = "https://www.virustotal.com/api/v3/files/{}"
@@ -114,4 +114,5 @@ class VirusScannerApp:
 if __name__ == "__main__":
     root = TkinterDnD.Tk()
     app = VirusScannerApp(root)
+
     root.mainloop()
